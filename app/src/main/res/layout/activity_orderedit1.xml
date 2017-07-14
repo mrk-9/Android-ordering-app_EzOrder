@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/default_2x"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#00abbf" >
+
+            <Button
+                android:id="@+id/orderedit1back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:background="@drawable/back_2x" />
+
+            <Button
+                android:id="@+id/edit1listplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:background="@drawable/topbannerleft_2x" />
+
+            <TextView
+                android:id="@+id/orderedittext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ORDER-EDIT"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="10" >
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/ordereditsend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonbg_2x"
+                        android:text="SEND"
+                        android:textColor="#fff"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/ordereditshippinginfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttonbg_2x"
+                        android:text="SHIPPING INFO"
+                        android:textColor="#fff"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/orderdel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttonbg_2x"
+                    android:text="DELETE"
+                    android:textColor="#fff"
+                    android:textSize="12dp" />
+
+                <SearchView
+                    android:id="@+id/search_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/searchbg_2x"
+                    android:iconifiedByDefault="true"
+                    android:inputType="textFilter"
+                    android:queryHint="Find an item" >
+                </SearchView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="40dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:text="UPC"
+                        android:textColor="#33b5e5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/ordershipdate"
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="0.5"
+                        android:text="QUANTITY"
+                        android:textColor="#33b5e5"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/orderitemcount"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:text="DESCRIPTION"
+                        android:textColor="#33b5e5"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <ListView
+                    android:id="@+id/orderitemlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="9" >
+                </ListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

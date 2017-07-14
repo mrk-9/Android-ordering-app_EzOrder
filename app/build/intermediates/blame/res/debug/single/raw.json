@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\poweredby2x.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\poweredby2x.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\flashlight_turn_off_icon.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\flashlight_turn_off_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.wav",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\beep.wav"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\camera_swap_icon_pressed.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\camera_swap_icon_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\ic_btn_search.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\ic_btn_search.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\flashlight_turn_on_icon_pressed.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\flashlight_turn_on_icon_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\flashlight_turn_off_icon_pressed.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\flashlight_turn_off_icon_pressed.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\flashlight_turn_on_icon.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\flashlight_turn_on_icon.png"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\raw\\camera_swap_icon.png",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\raw\\camera_swap_icon.png"
+    }
+]

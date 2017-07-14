@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\underborder.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\drawable-hdpi\\underborder.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\leftborder.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\drawable-hdpi\\leftborder.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\underline_bold.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\drawable-hdpi\\underline_bold.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\upborder.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\drawable-hdpi\\upborder.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\borderline.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\drawable-hdpi\\borderline.xml"
+    }
+]

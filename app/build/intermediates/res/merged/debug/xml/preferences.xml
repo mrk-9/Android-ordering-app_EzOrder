@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scandit="http://schemas.mirasense.com">
+    
+    
+    <PreferenceCategory 
+        android:title="Barcode Decoder Configuration">
+	    <CheckBoxPreference
+	        android:key="ean13_and_upc12_enabled"
+	        android:title="EAN13 &amp; UPC12"
+	        android:summary="Enable EAN13 and UPC12 decoding."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="ean8_enabled"
+	        android:title="EAN8"
+	        android:summary="Enable EAN8 decoding."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="upce_enabled"
+	        android:title="UPCE"
+	        android:summary="Enable UPCE decoding."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="code39_enabled"
+	        android:title="CODE39"
+	        android:summary="Enable CODE39 decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="code93_enabled"
+	        android:title="CODE93"
+	        android:summary="Enable CODE93 decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="false" />
+	    <CheckBoxPreference
+	        android:key="code128_enabled"
+	        android:title="CODE128"
+	        android:summary="Enable CODE128 decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="itf_enabled"
+	        android:title="ITF"
+	        android:summary="Enable ITF decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="msi_plessey_enabled"
+	        android:title="MSI Plessey"
+	        android:summary="Enable MSI Plessey decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="false" />
+	    <ListPreference
+	        android:key="msi_plessey_checksum"
+	        android:title="MSI Plessey checksum"
+	        android:dependency="msi_plessey_enabled"
+	        android:dialogTitle="Choose a checksum type"
+	        android:entries="@array/msi_plessey_checksum_entries"
+	        android:entryValues="@array/msi_plessey_checksum_entry_values"
+	        android:defaultValue="1" />
+	    <CheckBoxPreference
+	        android:key="databar_enabled"
+	        android:title="GS1 DataBar"
+	        android:summary="Enable GS1 DataBar decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="false" />
+	    <CheckBoxPreference
+	        android:key="databar_expanded_enabled"
+	        android:title="GS1 DataBar Expanded"
+	        android:summary="Enable GS1 DataBar Expanded decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="false" />
+	    <CheckBoxPreference
+	        android:key="codabar_enabled"
+	        android:title="Codabar"
+	        android:summary="Enable Codabar decoding. Only available in Enterprise Basic or Enterprise Premium Package."
+	        android:defaultValue="false" />
+	    <CheckBoxPreference
+	        android:key="qr_enabled"
+	        android:title="QR"
+	        android:summary="Enable QR decoding."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="data_matrix_enabled"
+	        android:title="Data Matrix"
+	        android:summary="Enable Data Matrix decoding. Only available in Enterprise Premium Package."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="micro_data_matrix_enabled"
+	        android:title="Micro Data Matrix"
+	        android:summary="Enable decoding of tiny Datamatrix codes. This should only be enabled if such codes will be scanned with your app since it slows down the overall scan performance."
+	        android:defaultValue="false" 
+	        android:dependency="data_matrix_enabled" />
+	    <CheckBoxPreference
+	        android:key="inverse_recognition"
+	        android:title="Inverse Recognition"
+	        android:summary="Decode white on black Datamatrix codes."
+	        android:defaultValue="false" 
+	        android:dependency="data_matrix_enabled" />
+	    <CheckBoxPreference
+	        android:key="pdf417_enabled"
+	        android:title="PDF 417"
+	        android:summary="Enable PDF 417 decoding. Only available in Enterprise Premium Package."
+	        android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Scan User Interface">
+	    <CheckBoxPreference
+	        android:key="restrict_scanning_area"
+	        android:title="Restrict scanning area"
+	        android:summary="Reduces the area that is scanned for barcodes to the given hot spot height."
+	        android:defaultValue="false" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="hot_spot_height"
+            android:title="Hot spot height"
+            android:summary="The height of the active scanning area."
+            android:dependency="restrict_scanning_area"
+            android:defaultValue="25"
+            android:max="50"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="hot_spot_x"
+            android:title="Hot spot x"
+            android:summary="The x coordinate of the center of the active scanning area."
+            android:defaultValue="50"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="hot_spot_y"
+            android:title="Hot spot y"
+            android:summary="The relative y coordinate of the center of the active scanning area."
+            android:defaultValue="50"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+	    <CheckBoxPreference
+	        android:key="draw_viewfinder"
+	        android:title="Viewfinder Visible"
+	        android:summary=""
+	        android:defaultValue="true" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="viewfinder_width"
+            android:title="Viewfinder width"
+            android:summary="The relative width of the viewfinder in portrait mode."
+            android:dependency="draw_viewfinder"
+            android:defaultValue="70"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="viewfinder_height"
+            android:title="Viewfinder height"
+            android:summary="The relative height of the viewfinder in portrait mode."
+            android:dependency="draw_viewfinder"
+            android:defaultValue="30"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="viewfinder_landscape_width"
+            android:title="Viewfinder landscape width"
+            android:summary="The relative width of the viewfinder in landscape mode."
+            android:dependency="draw_viewfinder"
+            android:defaultValue="40"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="viewfinder_landscape_height"
+            android:title="Viewfinder landscape height"
+            android:summary="The relative height of the viewfinder in landscape mode."
+            android:dependency="draw_viewfinder"
+            android:defaultValue="30"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Video Feed">
+	    <CheckBoxPreference
+	        android:key="ignore_preview_aspect_ratio"
+	        android:title="Ignore preview aspect ratio"
+	        android:summary="Stretches the camera image to fit the aspect ratio of the screen."
+	        android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Feedback">
+	    <CheckBoxPreference
+	        android:key="beep_enabled"
+	        android:title="Beep"
+	        android:summary="Plays a beep sound when a code is recognized."
+	        android:defaultValue="true" />
+	    <CheckBoxPreference
+	        android:key="vibrate_enabled"
+	        android:title="Vibrate"
+	        android:summary="Vibrates when a code is recognized."
+	        android:defaultValue="false" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Search Bar">
+	    <CheckBoxPreference
+	        android:key="search_bar"
+	        android:title="Visible"
+	        android:summary="Displays a search bar in the top of the screen that lets the user manually input barcode data."
+	        android:defaultValue="false" />
+       	<EditTextPreference
+           	android:key="search_bar_placeholder"
+            android:title="Placeholder"
+            android:dependency="search_bar"
+            android:defaultValue="Scan barcode or enter it here"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Torch Button">
+	    <CheckBoxPreference
+	        android:key="torch_enabled"
+	        android:title="Visible"
+	        android:summary="Shows a button to turn the torch off and on."
+	        android:defaultValue="true" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="torch_button_x"
+            android:title="Button x coordinate"
+            android:summary="The relative x coordinate of the torch button."
+            android:dependency="torch_enabled"
+            android:defaultValue="5"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="torch_button_y"
+            android:title="Button y coordinate"
+            android:summary="The relative y coordinate of the torch button."
+            android:dependency="torch_enabled"
+            android:defaultValue="1"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="Camera Switch Button">
+	    <ListPreference
+	        android:key="camera_switch_visibility"
+	        android:title="Visible"
+	        android:dialogTitle="Choose when the switch button should be visible"
+	        android:entries="@array/camera_switch_visibility_entries"
+	        android:entryValues="@array/camera_switch_visibility_entry_values"
+	        android:defaultValue="0" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="camera_switch_button_x"
+            android:title="Button x coordinate"
+            android:summary="The x coordinate (from the right edge of the display) of the camera switch button."
+            android:dependency="camera_switch_visibility"
+            android:defaultValue="5"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+       	<com.mirasense.util.SeekBarPreference
+           	android:key="camera_switch_button_y"
+            android:title="Button y coordinate"
+            android:summary="The relative y coordinate of the camera switch button."
+            android:dependency="camera_switch_visibility"
+            android:defaultValue="1"
+            android:max="100"
+            scandit:min="0"
+            scandit:interval="1"
+           	scandit:unitsLeft=""
+            scandit:unitsRight=""
+            scandit:fractionDigits="2" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

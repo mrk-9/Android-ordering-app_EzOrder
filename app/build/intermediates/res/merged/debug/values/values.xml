@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="camera_switch_visibility_entries">
+        <item>Never</item>
+        <item>Only on tablets</item>
+        <item>Always</item>
+    </string-array>
+    <string-array name="camera_switch_visibility_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="msi_plessey_checksum_entries">
+        <item>None</item>
+        <item>Mod 10</item>
+        <item>Mod 11</item>
+        <item>Mod 1010</item>
+        <item>Mod 1110</item>
+    </string-array>
+    <string-array name="msi_plessey_checksum_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">EZ ORDER SYSTEM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scanditsdk_barcode_decoding_in_progress">Decoding ...</string>
+    <string name="scanditsdk_barcode_presence_detected">Align code and hold still</string>
+    <string name="scanditsdk_initial_scan_screen_state">Align code with box</string>
+    <string name="scanditsdk_left_button_caption">KEYPAD</string>
+    <string name="scanditsdk_left_button_caption_when_keypad_visible">OK</string>
+    <string name="scanditsdk_right_button_caption">CANCEL</string>
+    <string name="scanditsdk_right_button_caption_when_keypad_visible">CANCEL</string>
+    <string name="scanditsdk_searchbar_placeholder">Scan barcode or enter it here</string>
+    <string name="scanditsdk_title_message">Scan a barcode</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

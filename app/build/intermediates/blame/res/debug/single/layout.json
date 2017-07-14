@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderrow.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\orderrow.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datetime.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\datetime.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderlist.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_orderlist.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seek_bar_preference.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\seek_bar_preference.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderedit2.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_orderedit2.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderadd.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_orderadd.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\orderlist_item.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\orderlist_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contactinfo.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_contactinfo.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_orderedit1.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_orderedit1.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "E:\\Android\\tsks\\13-EzOrder\\EZ_ORDER(AndroidStudio)\\EZ_ORDER(AndroidStudio)\\app\\src\\main\\res\\layout\\row.xml"
+    }
+]

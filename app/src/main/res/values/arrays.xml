@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="msi_plessey_checksum_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    
+    <string-array name="msi_plessey_checksum_entries">
+        <item>None</item>
+        <item>Mod 10</item>
+        <item>Mod 11</item>
+        <item>Mod 1010</item>
+        <item>Mod 1110</item>
+    </string-array>
+    
+    <string-array name="camera_switch_visibility_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="camera_switch_visibility_entries">
+        <item>Never</item>
+        <item>Only on tablets</item>
+        <item>Always</item>
+    </string-array>
+    
+</resources>

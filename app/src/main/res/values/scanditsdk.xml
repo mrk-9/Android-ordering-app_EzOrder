@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scanditsdk_initial_scan_screen_state">Align code with box</string>
+    <string name="scanditsdk_barcode_presence_detected">Align code and hold still</string>
+    <string name="scanditsdk_barcode_decoding_in_progress">Decoding ...</string>
+    <string name="scanditsdk_searchbar_placeholder">Scan barcode or enter it here</string>
+    
+    <!-- deprecated (2.1 GUI) -->
+    <string name="scanditsdk_title_message">Scan a barcode</string>
+    <string name="scanditsdk_left_button_caption">KEYPAD</string>
+    <string name="scanditsdk_left_button_caption_when_keypad_visible">OK</string>
+    <string name="scanditsdk_right_button_caption">CANCEL</string>
+    <string name="scanditsdk_right_button_caption_when_keypad_visible">CANCEL</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dip" >
+ 
+    <TextView
+        android:id="@+id/regdatetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/orderitemquantity"
+        android:layout_alignBottom="@+id/orderitemquantity"
+        android:layout_toRightOf="@+id/orderitemquantity"
+        android:text="TextView"
+        android:textSize="10sp" />
+ 
+    <TextView
+        android:id="@+id/ordernum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/continent"
+        android:text="TextView"
+        android:textSize="10sp" />
+ 
+    <TextView
+        android:id="@+id/shipdatetimelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/orderitemquantity"
+        android:layout_toRightOf="@+id/orderitemquantity"
+        android:text="TextView"
+        android:textSize="10sp" />
+ 
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/orderitemcount"
+        android:layout_alignLeft="@+id/name"
+        android:text="TextView"
+        android:textSize="10sp" />
+ 
+</RelativeLayout>

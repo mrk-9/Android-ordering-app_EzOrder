@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="17"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="848263793273919"
+    token="787742159730800632"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="124" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="44" />
+    <task
+        name="verifier"
+        duration="5" />
+
+    <artifact
+        location="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="848263793273919"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

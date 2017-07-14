@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/default_2x"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#00abbf" >
+
+        <Button
+            android:id="@+id/contactback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:background="@drawable/back_2x" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="CONTACT INFO"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="10" >
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp" >
+
+                <TableRow
+                    android:id="@+id/TableRow03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderbg_2x" >
+
+                    <TextView
+                        android:id="@+id/TextView05"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:text="Company Name : "
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2.5"
+                        android:text="A to Z wholesale"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRow02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderbg_2x" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:text="Contact Number"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2.5"
+                        android:text="# 404-633-2827"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/borderbg_2x" >
+
+                    <TextView
+                        android:id="@+id/orderitemcount"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:text="Email Address:"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ordershipdate"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2.5"
+                        android:text="Aliatoz54@yahoo.com"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/TableRow01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/borderbg_2x" >
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:text="Address:"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="1dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2.5"
+                        android:text="1833 Lawrenceville Hwy, Decatur, GA 30033"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

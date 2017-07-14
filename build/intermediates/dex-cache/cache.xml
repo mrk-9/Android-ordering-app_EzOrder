@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="345f60a2b5132054093da8ede37b03a766a58992">
+        <dex dex="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8584c77f32e4c5eb3426c14932efa965d59a1c83\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4d711deb5f81ff688c00398ce9e75e1219203525">
+        <dex dex="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\pre-dexed\debug\instant-run_ef4cc4ee4eb7921a1f56fbe6d9f9217a8d60e2a6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f842cc05d9418e6f0dafadd4acdb70f1368e65fd">
+        <dex dex="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cb278215dd7cb74ed5f980965ba9834d4162d157\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\libs\scanditsdk-barcodepicker-android-4.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="62c41d0f0687dffc9e7cf03fe73fb0202fd14a95">
+        <dex dex="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\pre-dexed\debug\scanditsdk-barcodepicker-android-4.2.2_8eb3745a7f25807b92e272102fbf83cf7d064e63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5fd0fc27ca4c1ee5521828bbf9b3ccfc9aa16ee">
+        <dex dex="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_0edf9fa386da5ddcee3f0f09ee45d409af391ae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\Android\tsks\13-EzOrder\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_d229622dd24218a02432e9a317a2afca388ba508.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_d229622dd24218a02432e9a317a2afca388ba508\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\libs\scanditsdk-barcodepicker-android-4.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="62c41d0f0687dffc9e7cf03fe73fb0202fd14a95">
+        <dex dex="E:\Share &amp;&amp; VM\Share\Task(Ruben Martinez)\11-EZ_Order(iOS &amp; Android)\Android\EZ_ORDER(AndroidStudio)\EZ_ORDER(AndroidStudio)\app\build\intermediates\transforms\dex\debug\folders\1000\2\scanditsdk-barcodepicker-android-4.2.2_c03872a2e0e2bc6b7c72d50431a3d730e4d2757b\classes.dex" />
+    </item>
+
+</items>

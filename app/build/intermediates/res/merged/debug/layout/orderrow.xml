@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/underline_bold" >
+
+    <TextView
+        android:id="@+id/orderid"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:text="id"
+        android:textSize="12sp" />
+
+    <FrameLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2" >
+
+        <TextView
+            android:id="@+id/ordershipdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:text="shipdate"
+            android:textSize="11sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/orderitemcount"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:text="count"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/orderdescription"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="bottom|center"
+        android:text="description"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/orderdatetime"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:ellipsize="end"
+        android:gravity="center|top"
+        android:text="datetime"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.42"
+        android:src="@drawable/leftarrow_2x" />
+
+</LinearLayout>

@@ -1,0 +1,366 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_2x"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="7dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/addlabel"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="2"
+                android:src="@drawable/logo1_2x" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="6" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" >
+
+                    <FrameLayout
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@drawable/underborder" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/borderline" >
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="6dp"
+                                    android:layout_weight="6"
+                                    android:baselineAligned="true"
+                                    android:orientation="vertical" >
+
+                                    <Button
+                                        android:id="@+id/orderbtn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/order_2x" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@drawable/underborder" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/leftborder" >
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="2"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="6dp"
+                                    android:layout_weight="6"
+                                    android:orientation="vertical" >
+
+                                    <Button
+                                        android:id="@+id/orderreviewbtn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/orderreview_2x" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" >
+
+                    <FrameLayout
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:background="@drawable/upborder" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/borderline" >
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="6dp"
+                                    android:layout_weight="6"
+                                    android:orientation="vertical" >
+
+                                    <Button
+                                        android:id="@+id/contactinfobtn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/contactinfo_2x" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="3dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="3"
+                        android:background="@drawable/upborder" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/leftborder" >
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1.5"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="6dp"
+                                    android:layout_weight="6"
+                                    android:orientation="vertical" >
+
+                                    <Button
+                                        android:id="@+id/orderlistbtn"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/orderlist_2x" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical" >
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sendmessage"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonbg_2x"
+                android:text="SEND A MESSAGE"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
